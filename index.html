@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Fauget Flower Shop</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="navbar-left">
+      <img src="assets/logo.png" alt="Fauget Logo" class="logo">
+    
+    </div>
+    <ul class="navbar-menu">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Shop</a></li>
+      <li><a href="#">About us</a></li>
+      <li class="cart">
+        <img src="assets/download.png" alt="Cart($56)" class="cart-icon">
+        <span>Cart($56)</span>
+      </li>
+    </ul>
+    <div class="navbar-mobile">
+      <img src="assets/download.png" alt="Cart" class="cart-icon">
+      <span class="site-name">Fauget</span>
+    </div>
+  </nav>
+
+  <!-- Banner -->
+  <section class="banner">
+    <div class="banner-content">
+      <h1>ALWAYS <span class="highlight">FRESH</span> FLOWERS</h1>
+      <p>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion.</p>
+      <button class="primary-btn">Shop Now</button>
+    </div>
+    <div class="banner-image">
+      <img src="assets/hero-flower.png" alt="Bouquet">
+    </div>
+  </section>
+
+  <!-- Plants Section -->
+  <section class="plants-section">
+    <div class="section-header">
+         <h1><span class="highlight">Our </span> Plants</h1>
+      
+      <p>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
+    </div>
+    <div class="plants-grid">
+      <!-- 8 Plant Cards -->
+      <div class="plant-card">
+        <img src="assets/sample-flower-image.png" alt="Plant">
+        <h3>Tulip Bouquet</h3>
+        <p class="price">$19.99</p>
+        <button class="primary-btn" onclick="addToCart()">Add to Cart</button>
+      </div>
+      <div class="plant-card">
+        <img src="assets/sample-flower-image.png" alt="Plant">
+        <h3>Rose Bouquet</h3>
+        <p class="price">$24.99</p>
+        <button class="primary-btn" onclick="addToCart()">Add to Cart</button>
+      </div>
+      <div class="plant-card">
+        <img src="assets/sample-flower-image.png" alt="Plant">
+        <h3>Lily Bouquet</h3>
+        <p class="price">$21.99</p>
+        <button class="primary-btn" onclick="addToCart()">Add to Cart</button>
+      </div>
+      <div class="plant-card">
+        <img src="assets/sample-flower-image.png" alt="Plant">
+        <h3>Orchid Bouquet</h3>
+        <p class="price">$29.99</p>
+        <button class="primary-btn" onclick="addToCart()">Add to Cart</button>
+      </div>
+      <div class="plant-card">
+        <img src="assets/sample-flower-image.png" alt="Plant">
+        <h3>Sunflower Bouquet</h3>
+        <p class="price">$17.99</p>
+        <button class="primary-btn" onclick="addToCart()">Add to Cart</button>
+      </div>
+      <div class="plant-card">
+        <img src="assets/sample-flower-image.png" alt="Plant">
+        <h3>Daisy Bouquet</h3>
+        <p class="price">$15.99</p>
+        <button class="primary-btn" onclick="addToCart()">Add to Cart</button>
+      </div>
+      <div class="plant-card">
+        <img src="assets/sample-flower-image.png" alt="Plant">
+        <h3>Peony Bouquet</h3>
+        <p class="price">$22.99</p>
+        <button class="primary-btn" onclick="addToCart()">Add to Cart</button>
+      </div>
+      <div class="plant-card">
+        <img src="assets/sample-flower-image.png" alt="Plant">
+        <h3>Mixed Bouquet</h3>
+        <p class="price">$27.99</p>
+        <button class="primary-btn" onclick="addToCart()">Add to Cart</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Plants Lover Section -->
+ <section class="lover-section">
+  <div class="lover-image-container">
+    <img src="assets/flower-store.png" alt="Florist Table" class="lover-image">
+    <img src="assets/trusted-badge.png" alt="Trusted Badge" class="trusted-badge spin">
+  </div>
+  <div class="lover-content">
+    <h2>Flower & Plants Lover</h2>
+    <ul>
+      <li>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
+      <li>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
+      <li>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
+    </ul>
+  </div>
+</section>
+  <!--  Deals Section -->
+  <section class="deals-section">
+  <div class="deals-header">
+    <h2><span class="highlight">Latest</span> Deals</h2>
+    <p>
+      Indulge your senses with the beauty and fragrance of our fresh flower shop. From<br>
+      classic roses to exotic blooms, we offer a wide variety of fresh.
+    </p>
+  </div>
+  <div class="deals-grid-custom">
+    <div class="deals-left">
+      <div class="deal-card-custom" style="background-image: url('assets/deal-bloom.png');">
+        <div class="deal-overlay">
+          <div class="deal-title">60% Off | Bloom Plant</div>
+          <a href="#" class="deal-btn">Shop Now</a>
+        </div>
+      </div>
+      <div class="deal-card-custom" style="background-image: url('assets/deal-ana.png');">
+        <div class="deal-overlay">
+          <div class="deal-title">30% Off | Ana Plant</div>
+          <a href="#" class="deal-btn">Shop Now</a>
+        </div>
+      </div>
+    </div>
+    <div class="deal-card-custom deal-card-large" style="background-image: url('assets/deal-zabo.png');">
+      <div class="deal-overlay">
+        <div class="deal-title large">25% Off | Zabo Plant</div>
+        <a href="#" class="deal-btn">Shop Now</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Join Section -->
+<section class="join-section">
+  <div class="join-overlay">
+    <h2>Join the colorful Bunch</h2>
+    <form class="join-form">
+      <input type="email" placeholder="Write email" required>
+      <button type="submit">Subscribe</button>
+    </form>
+  </div>
+</section>
+
+<!-- Footer Section -->
+<footer class="footer">
+  <div class="footer-content">
+    <div class="footer-left">
+      <img src="assets/logo.png" alt="Fauget Logo" class="footer-logo">
+      <p>Indulge your senses with the beauty and fragrance of our fresh flower shop.</p>
+    </div>
+    <div class="footer-links">
+      <div>
+        <a href="#">Home</a>
+        <a href="#">About Us</a>
+        <a href="#">Blog</a>
+        <a href="#">FAQ</a>
+      </div>
+      <div>
+        <a href="#">Features</a>
+        <a href="#">Pricing</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+      </div>
+    </div>
+    <div class="footer-social">
+      <a href="#"><img src=" assets/icon-linkedin.png" alt="LinkedIn"></a>
+      <a href="#"><img src="assets/icon-twitter.png" alt="X"></a>
+      <a href="#"><img src="assets/icon-facebook.png " alt="Facebook"></a>
+      <a href="#"><img src="assets/icon-youtube.png" alt="YouTube"></a>
+    </div>
+  </div>
+</footer>
+
+  <script>
+   
+    // Add to Cart Alert
+    function addToCart() {
+      alert("Flower Added to Cart");
+    }
+
+    // Hide trusted badge on mobile
+    function handleTrustedBadge() {
+      const badge = document.querySelector('.trusted-badge');
+      if (window.innerWidth < 768) {
+        badge.style.display = 'none';
+      } else {
+        badge.style.display = 'block';
+      }
+    }
+    window.addEventListener('resize', handleTrustedBadge);
+    window.addEventListener('DOMContentLoaded', handleTrustedBadge);
+  </script>
+</body>
+</html>

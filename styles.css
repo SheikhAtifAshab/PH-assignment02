@@ -70,7 +70,7 @@ body {
   align-items: center;
   gap: 10px;
 }
-@media (max-width: 700px) {
+@media (max-width: 500px) {
   .navbar-menu {
     gap: 16px;
   }
@@ -82,7 +82,7 @@ body {
  
 }
 }
-@media (max-width: 700px) {
+@media (max-width: 500px) {
   .navbar-menu {
     display: none;
   }
@@ -543,7 +543,7 @@ font-family:'Times New Roman', Times, serif;
     margin-top: 12px;
   }
 }*/
-@media (max-width: 700px) {
+@media (max-width: 500px) {
   
 
   /* Banner */

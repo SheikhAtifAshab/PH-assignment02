@@ -569,10 +569,11 @@ font-family:'Times New Roman', Times, serif;
   }
   .plants-grid {
     grid-template-columns: 1fr 1fr;
-    gap: 10px;
+    gap: 7px;
   }
   .plant-card {
-    padding: 12px 4px 10px 4px;
+    padding: 10px 3px 10px 3px;
+    
   }
   .plant-card img {
     width: 160px;
